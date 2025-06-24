@@ -1,0 +1,38 @@
+﻿# --- Fichiers binaires ---
+*.exe
+*.o
+*.obj
+*.dll
+*.lib
+*.so
+*.a
+
+# --- Dossiers de build ---
+build/
+bin/
+out/
+cmake-build-*/
+CMakeFiles/
+Makefile
+CMakeCache.txt
+
+# --- Fichiers de logs / temporaires ---
+*.log
+*.tmp
+*.cache
+
+# --- Fichiers IDE ---
+# CLion / IntelliJ
+.idea/
+
+# VSCode
+.vscode/
+
+# Code::Blocks
+*.depend
+*.layout
+
+# --- macOS/Linux spécifiques ---
+.DS_Store
+*.swp
+*~
