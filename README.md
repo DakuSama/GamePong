@@ -1,0 +1,1 @@
+Projet perso qui consiste a refaire le jeu pong en c++ et en rajoutant quelque truc evidamment en plus comme un multi online et local. autre pariculariter c'est de me forcer a coder le plus proprement possible etant donner que je n'ai pas de limite de temps comme pour les projet scolaire
