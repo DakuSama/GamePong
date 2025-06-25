@@ -2,14 +2,14 @@
 // Created by dakus on 05/05/2025.
 //
 
-#include "Ball.h"
+#include "../include/Ball.h"
 
 #include <iostream>
 #include <bits/ostream.tcc>
 #include <SFML/Graphics/RenderWindow.hpp>
 
-#include "Paddle.h"
-#include "Utils.h"
+#include "../include/Paddle.h"
+#include "../include/Utils.h"
 
 Ball::Ball(float radius, sf::Vector2f position, sf::Color color, float speed, sf::Vector2f velocity) : m_speed(speed), m_velocity(velocity) {
     m_shape.setRadius(radius);

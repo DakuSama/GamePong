@@ -2,7 +2,7 @@
 // Created by dakus on 05/05/2025.
 //
 
-#include "Paddle.h"
+#include "../include/Paddle.h"
 
 #include <iostream>
 #include <bits/ostream.tcc>

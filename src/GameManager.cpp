@@ -1,7 +1,7 @@
 ﻿//
 // Created by dakus on 05/05/2025.
 
-#include "GameManager.h"
+#include "../include/GameManager.h"
 
 #include <complex>
 #include <iostream>

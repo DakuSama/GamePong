@@ -2,7 +2,7 @@
 // Created by dakus on 06/05/2025.
 //
 
-#include "Texte.h"
+#include "../include/Texte.h"
 
 #include <iostream>
 

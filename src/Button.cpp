@@ -2,7 +2,7 @@
 // Created by dakus on 06/05/2025.
 //
 
-#include "Button.h"
+#include "../include/Button.h"
 
 #include <iostream>
 #include <bits/ostream.tcc>

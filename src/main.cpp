@@ -1,7 +1,7 @@
 #include <iostream>
 #include <SFML/Window/Event.hpp>
 
-#include "GameManager.h"
+#include "../include/GameManager.h"
 
 int main() {
     GameManager game;

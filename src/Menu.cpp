@@ -2,13 +2,13 @@
 // Created by dakus on 08/05/2025.
 //
 
-#include "Menu.h"
+#include "../include/Menu.h"
 
 #include <iostream>
 #include <SFML/Window/Event.hpp>
 #include <SFML/Window/Mouse.hpp>
 
-#include "GameManager.h"
+#include "../include/GameManager.h"
 
 Menu::Menu(sf::RenderWindow &window, sf::Font &font, GameState &state, MultiState &multiState)
     : m_window(window),

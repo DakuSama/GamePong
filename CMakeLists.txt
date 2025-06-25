@@ -6,26 +6,26 @@ set(CMAKE_CXX_STANDARD 20)
 set(SFML_DIR "C:/SFML-2.6.2/lib/cmake/SFML")
 find_package(SFML 2.6 COMPONENTS graphics audio window system REQUIRED)
 
-add_executable(GamePong main.cpp
-        Paddle.cpp
-        Paddle.h
-        Ball.cpp
-        Ball.h
-        GameManager.cpp
-        GameManager.h
-        Utils.h
-        Texte.cpp
-        Texte.h
-        Button.cpp
-        Button.h
-        Menu.cpp
-        Menu.h
-        GameState.cpp
-        GameState.h
-        MultiState.cpp
-        MultiState.h
-        NetworkManager.cpp
-        NetworkManager.h
+add_executable(GamePong src/main.cpp
+        src/Paddle.cpp
+        include/Paddle.h
+        src/Ball.cpp
+        include/Ball.h
+        src/GameManager.cpp
+        include/GameManager.h
+        include/Utils.h
+        src/Texte.cpp
+        include/Texte.h
+        src/Button.cpp
+        include/Button.h
+        src/Menu.cpp
+        include/Menu.h
+        src/GameState.cpp
+        include/GameState.h
+        src/MultiState.cpp
+        include/MultiState.h
+        src/NetworkManager.cpp
+        include/NetworkManager.h
 )
 
 include_directories("C:/SFML-2.6.2/include")
